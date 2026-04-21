@@ -22,14 +22,14 @@
   - [x] 0.3.2 `.editorconfig`
   - [x] 0.3.3 Conventional Commits config
   - [ ] 0.3.4 Optional: pre-commit with `markdownlint` + link-check (skipped — optional)
-- [ ] **0.4** Tag `v0.1.0`
+- [x] **0.4** Tag `v0.1.0`
 
 ## v0.2.0 — L1 Foundations Complete
 
-- [ ] **1.1** Linear algebra
-  - [ ] 1.1.1 Vector spaces, bases, change of basis (notes)
-  - [ ] 1.1.2 Eigendecomposition + SVD (notes + exercise)
-  - [ ] 1.1.3 Matrix calculus (notes + 5 derived gradients exercise)
+- [x] **1.1** Linear algebra
+  - [x] 1.1.1 Vector spaces, bases, change of basis (notes)
+  - [x] 1.1.2 Eigendecomposition + SVD (notes + exercise)
+  - [x] 1.1.3 Matrix calculus (notes + 5 derived gradients exercise)
 - [ ] **1.2** Probability
   - [ ] 1.2.1 Conditional probability + Bayes (notes)
   - [ ] 1.2.2 MLE vs MAP (notes + worked example)
