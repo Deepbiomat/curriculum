@@ -1,0 +1,28 @@
+{
+  "types": [
+    "docs",
+    "notes",
+    "chore",
+    "feat",
+    "fix",
+    "refactor",
+    "test"
+  ],
+  "scopes": [
+    "l1",
+    "l2",
+    "l3",
+    "l4",
+    "structure",
+    "repo"
+  ],
+  "description": {
+    "docs": "Documentation changes (README, ARCHITECTURE, etc.)",
+    "notes": "Layer notes and learning materials",
+    "chore": "Repository maintenance (gitignore, configs, etc.)",
+    "feat": "New exercises or curriculum features",
+    "fix": "Corrections to existing content",
+    "refactor": "Restructuring without content change",
+    "test": "Adding or updating tests/validation"
+  }
+}

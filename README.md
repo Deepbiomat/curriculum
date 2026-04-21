@@ -2,7 +2,7 @@
 
 > Learning roadmap for deep learning applied to biomedical biomaterials informatics. Home of the [`deepbiomat`](https://github.com/deepbiomat) project repos.
 
-**Status:** `v0.0.5` (pre-scaffold; curriculum retitled — see [`CHANGELOG.md`](./CHANGELOG.md))
+**Status:** `v0.1.0` (scaffold complete; see [`CHANGELOG.md`](./CHANGELOG.md))
 **GitHub org:** [`deepbiomat`](https://github.com/deepbiomat) (locked 2026-04-21)
 **License:** `CC-BY-4.0` (locked 2026-04-21 — open educational content; attribution-only).
 
@@ -77,3 +77,10 @@ Additional resources are vetted and added in [`TODO.md`](./TODO.md) under the re
 - Citations follow APA 7 in notes; BibTeX entries in `references.bib` (created at v0.1.0).
 - Commits follow Conventional Commits (`docs:`, `notes:`, `chore:`).
 - One PR per atomic task in `TODO.md`.
+
+---
+
+## License
+
+© 2026 Deepbiomat. This work is licensed under a [Creative Commons Attribution 4.0 International License](LICENSE).
+

@@ -2,26 +2,26 @@
 
 > Atomic tasks in tasks/subtasks form. Bind each to a SemVer milestone. Check off only with linked commit/PR.
 
-**Cursor:** `v0.0.5` (pre-scaffold, no work started; curriculum retitled — see [`CHANGELOG.md`](./CHANGELOG.md))
+**Cursor:** `v0.1.0` (scaffold complete; awaiting tag — see [`CHANGELOG.md`](./CHANGELOG.md))
 
 ---
 
 ## v0.1.0 — Scaffold
 
-- [ ] **0.1** Add LICENSE *(locked in v0.0.2: `CC-BY-4.0`)*
-  - [ ] 0.1.1 Add `LICENSE` file with the canonical CC-BY-4.0 legal code (from creativecommons.org)
-  - [ ] 0.1.2 Add license note + copyright line in `README.md` footer
-- [ ] **0.2** Create file structure per `ARCHITECTURE.md` §1
-  - [ ] 0.2.1 Create `notes/L{1..4}/` dirs with empty `README.md` placeholders
-  - [ ] 0.2.2 Create `exercises/L{1..4}/` dirs
-  - [ ] 0.2.3 Create `reviews/` dir
-  - [ ] 0.2.4 Create empty `references.bib`
-  - [ ] 0.2.5 Create `CHANGELOG.md` per Keep a Changelog
-- [ ] **0.3** Repo hygiene
-  - [ ] 0.3.1 `.gitignore` (Python, OS, editor)
-  - [ ] 0.3.2 `.editorconfig`
-  - [ ] 0.3.3 Conventional Commits config
-  - [ ] 0.3.4 Optional: pre-commit with `markdownlint` + link-check
+- [x] **0.1** Add LICENSE *(locked in v0.0.2: `CC-BY-4.0`)*
+  - [x] 0.1.1 Add `LICENSE` file with the canonical CC-BY-4.0 legal code (from creativecommons.org)
+  - [x] 0.1.2 Add license note + copyright line in `README.md` footer
+- [x] **0.2** Create file structure per `ARCHITECTURE.md` §1
+  - [x] 0.2.1 Create `notes/L{1..4}/` dirs with empty `README.md` placeholders
+  - [x] 0.2.2 Create `exercises/L{1..4}/` dirs
+  - [x] 0.2.3 Create `reviews/` dir
+  - [x] 0.2.4 Create empty `references.bib`
+  - [x] 0.2.5 Create `CHANGELOG.md` per Keep a Changelog
+- [x] **0.3** Repo hygiene
+  - [x] 0.3.1 `.gitignore` (Python, OS, editor)
+  - [x] 0.3.2 `.editorconfig`
+  - [x] 0.3.3 Conventional Commits config
+  - [ ] 0.3.4 Optional: pre-commit with `markdownlint` + link-check (skipped — optional)
 - [ ] **0.4** Tag `v0.1.0`
 
 ## v0.2.0 — L1 Foundations Complete
