@@ -28,8 +28,12 @@
 
 - [x] **1.1** Linear algebra
   - [x] 1.1.1 Vector spaces, bases, change of basis (notes)
-  - [x] 1.1.2 Eigendecomposition + SVD (notes + exercise)
-  - [x] 1.1.3 Matrix calculus (notes + 5 derived gradients exercise)
+  - [x] 1.1.2 Linear transformations, rank, nullity, four fundamental subspaces (notes)
+  - [x] 1.1.3 Orthogonality: projections, Gram-Schmidt, QR decomposition (notes)
+  - [x] 1.1.4 Eigendecomposition + SVD (notes + exercise)
+  - [x] 1.1.5 Matrix calculus (notes + 5 derived gradients exercise)
+  - [x] 1.1.6 Tensor notation: index notation, Einstein summation, reading tensor expressions in papers (notes)
+  - [x] 1.1.7 Derive backpropagation from scratch using chain rule + matrix calculus (exercise)
 - [ ] **1.2** Probability
   - [ ] 1.2.1 Conditional probability + Bayes (notes)
   - [ ] 1.2.2 MLE vs MAP (notes + worked example)
