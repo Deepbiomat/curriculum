@@ -1,0 +1,11 @@
+[project]
+name = "curriculum-exercises-l1"
+version = "0.1.0"
+description = "L1 foundation exercises for Deepbiomat curriculum"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "jupyter>=1.0",
+]

@@ -59,6 +59,7 @@ env/
 .vscode/
 .idea/
 .windsurf/
+.zed/
 *.swp
 *.swo
 *~

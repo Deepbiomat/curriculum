@@ -8,7 +8,7 @@
 
 ## v0.1.0 — Scaffold
 
-- [x] **0.1** Add LICENSE *(locked in v0.0.2: `CC-BY-4.0`)*
+- [x] **0.1** Add LICENSE _(locked in v0.0.2: `CC-BY-4.0`)_
   - [x] 0.1.1 Add `LICENSE` file with the canonical CC-BY-4.0 legal code (from creativecommons.org)
   - [x] 0.1.2 Add license note + copyright line in `README.md` footer
 - [x] **0.2** Create file structure per `ARCHITECTURE.md` §1
@@ -34,10 +34,10 @@
   - [x] 1.1.5 Matrix calculus (notes + 5 derived gradients exercise)
   - [x] 1.1.6 Tensor notation: index notation, Einstein summation, reading tensor expressions in papers (notes)
   - [x] 1.1.7 Derive backpropagation from scratch using chain rule + matrix calculus (exercise)
-- [ ] **1.2** Probability
-  - [ ] 1.2.1 Conditional probability + Bayes (notes)
-  - [ ] 1.2.2 MLE vs MAP (notes + worked example)
-  - [ ] 1.2.3 Common distributions (notes + sampling exercise)
+- [x] **1.2** Probability
+  - [x] 1.2.1 Conditional probability + Bayes (notes)
+  - [x] 1.2.2 MLE vs MAP (notes + worked example)
+  - [x] 1.2.3 Common distributions (notes + sampling exercise)
 - [ ] **1.3** ODEs/PDEs
   - [ ] 1.3.1 Linear ODEs, separation of variables (notes)
   - [ ] 1.3.2 Heat/diffusion equation intuition (notes)
@@ -97,13 +97,13 @@
   - [ ] 3.5.2 Complete the pymatgen lessons
 - [ ] **3.6** Capstone exercise
   - [ ] 3.6.1 Train a baseline GNN on a Matbench task (any) — beat random forest
-- [ ] **3.7** Uncertainty quantification *(added in v0.0.1)*
+- [ ] **3.7** Uncertainty quantification _(added in v0.0.1)_
   - [ ] 3.7.1 Calibration: reliability diagrams, ECE, temperature scaling (notes + notebook)
   - [ ] 3.7.2 Conformal prediction: split-conformal for regression and classification (notes + notebook)
   - [ ] 3.7.3 Bayesian DL primer: MC dropout, deep ensembles (notes + notebook)
   - [ ] 3.7.4 Apply UQ method to the v0.4.0 capstone GNN; verify calibration empirically
-- [ ] **3.8** L3 exit gate *(was 3.7 in v0.0.0)*
-- [ ] **3.9** Tag `v0.4.0` — **P1 + P2 may now begin** *(was 3.8 in v0.0.0)*
+- [ ] **3.8** L3 exit gate _(was 3.7 in v0.0.0)_
+- [ ] **3.9** Tag `v0.4.0` — **P1 + P2 may now begin** _(was 3.8 in v0.0.0)_
 
 ## v0.5.0 — L4 Bridge to Medicine Complete
 
@@ -118,15 +118,15 @@
 - [ ] **4.4** Regulatory framing
   - [ ] 4.4.1 FDA 510(k) basics (notes)
   - [ ] 4.4.2 ISO 10993 deep dive (notes)
-- [ ] **4.5** Multi-omics integration framing *(added in v0.0.1)*
+- [ ] **4.5** Multi-omics integration framing _(added in v0.0.1)_
   - [ ] 4.5.1 Vocabulary: genomics, transcriptomics, proteomics, metabolomics (notes)
   - [ ] 4.5.2 How omics data is shaped (high-dim, sparse, batch effects) — notes
   - [ ] 4.5.3 Joint modeling pattern: omics + materials descriptors as concatenated/fused inputs (notes + sketch)
   - [ ] 4.5.4 Map: which clinical-outcome problems are improved by adding which omics modality (essay)
-- [ ] **4.6** Synthesis *(was 4.5 in v0.0.0)*
+- [ ] **4.6** Synthesis _(was 4.5 in v0.0.0)_
   - [ ] 4.6.1 Frame one biomaterial problem with a clinical loss function (essay)
-- [ ] **4.7** L4 exit gate *(was 4.6 in v0.0.0)*
-- [ ] **4.8** Tag `v0.5.0` *(was 4.7 in v0.0.0)*
+- [ ] **4.7** L4 exit gate _(was 4.6 in v0.0.0)_
+- [ ] **4.8** Tag `v0.5.0` _(was 4.7 in v0.0.0)_
 
 ## v1.0.0 — Curriculum Mature
 
