@@ -90,3 +90,9 @@ Thumbs.db
 
 # Windsurf
 .windsurf/
+
+# Harness tool state
+.harness-mem/state
+.claude/
+.claude-plugin/
+hooks/
