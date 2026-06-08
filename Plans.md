@@ -9,14 +9,14 @@ Created: 2026-06-08
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
 | 1.1.1 | Vector spaces, bases, change of basis (notes) | notes/L1-foundations/linear-algebra.md exists | - | cc:done |
-| 1.1.2 | Linear transformations, rank, nullity, four fundamental subspaces (notes) | notes content covers four subspaces with examples | 1.1.1 | cc:done |
-| 1.1.3 | Orthogonality: projections, Gram-Schmidt, QR decomposition (notes) | Gram-Schmidt algorithm derived, QR explained | 1.1.2 | cc:done |
+| 1.1.2 | Linear transformations, rank, nullity, four fundamental subspaces (notes) | notes/L1-foundations/linear-algebra.md covers linear transformations, rank, nullity, four subspaces with examples | 1.1.1 | cc:done |
+| 1.1.3 | Orthogonality: projections, Gram-Schmidt, QR decomposition (notes) | notes/L1-foundations/linear-algebra.md explains orthogonality, derives Gram-Schmidt, explains QR decomposition | 1.1.2 | cc:done |
 | 1.1.4 | Eigendecomposition + SVD (notes + exercise) | exercises/L1/eigendecomposition.md works without errors | 1.1.3 | cc:done |
 | 1.1.5 | Matrix calculus (notes + 5 derived gradients exercise) | 5 gradients correctly derived in exercise | 1.1.4 | cc:done |
 | 1.1.6 | Tensor notation: index notation, Einstein summation (notes) | notes/L1-foundations/tensor-notation.md complete | 1.1.5 | cc:done |
 | 1.1.7 | Derive backpropagation from scratch (exercise) | exercises/L1/backprop-derivation.md runs, derivation complete | 1.1.6 | cc:done |
 | 1.2.1 | Conditional probability + Bayes (notes) | notes/L1-foundations/probability.md covers both | - | cc:done |
-| 1.2.2 | MLE vs MAP (notes + worked example) | worked example in notes demonstrates both | 1.2.1 | cc:done |
+| 1.2.2 | MLE vs MAP (notes + worked example) | notes/L1-foundations/probability.md includes worked example demonstrating MLE vs MAP | 1.2.1 | cc:done |
 | 1.2.3 | Common distributions (notes + sampling exercise) | exercises/L1/sampling.md runs, distributions sampled | 1.2.2 | cc:done |
 
 ## Phase 2: L1 ODEs & Biochemistry
