@@ -24,7 +24,7 @@ Created: 2026-06-08
 | Task | Content | DoD | Depends | Status |
 |------|---------|-----|---------|--------|
 | 1.3.1 | Linear ODEs, separation of variables (notes) [tdd:skip:notes-only] | notes/L1-foundations/odes.md exists, separation of variables explained with examples | Phase 1 | cc:done [90142fc] |
-| 1.3.2 | Heat/diffusion equation intuition (notes) [tdd:skip:notes-only] | notes/L1-foundations/pdes.md explains heat equation, intuition clear | 1.3.1 | cc:todo |
+| 1.3.2 | Heat/diffusion equation intuition (notes) [tdd:skip:notes-only] | notes/L1-foundations/pdes.md explains heat equation, intuition clear | 1.3.1 | cc:done [e4ca1c4] |
 | 1.4.1 | Central dogma + protein structure (notes) [tdd:skip:notes-only] | notes/L1-foundations/biochem.md covers central dogma and protein tertiary structure | Phase 1 | cc:todo |
 | 1.4.2 | Enzymes + binding kinetics (notes) [tdd:skip:notes-only] | notes content explains enzyme kinetics and Michaelis-Menten | 1.4.1 | cc:todo |
 
