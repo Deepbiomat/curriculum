@@ -30,7 +30,7 @@ curriculum/
 
 @.claude/rules/commit-convention.md
 
-**Key point:** No `Co-Authored-By:` trailers — commit attribution stays with the human author.
+**Critical:** Do not include `Co-Authored-By:` trailers in any commit message. This applies to all assistant-generated commits, including those from Claude Code or any AI tool. Commit attribution stays with the human author. Boilerplate trailers add noise without meaningful authorship information and have been retroactively stripped from past commits.
 
 ### Language Requirement
 
