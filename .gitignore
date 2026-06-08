@@ -88,6 +88,9 @@ Thumbs.db
 *.bak
 *.orig
 
+# Generated output
+out/
+
 # Windsurf
 .windsurf/
 
