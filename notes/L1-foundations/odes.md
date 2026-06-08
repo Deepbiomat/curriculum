@@ -147,7 +147,7 @@ $$\frac{dM}{dt} = -\alpha$$
 Solution: $M(t) = M_0 - \alpha t$ (linear, not exponential)
 
 **Biomaterial diffusion (Fick's law, 1D, constant $D$):**
-$$\frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}$$
+$$\frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2}$$
 This is a **PDE**, but its solutions often involve separation of variables (see 1.3.2).
 
 ---

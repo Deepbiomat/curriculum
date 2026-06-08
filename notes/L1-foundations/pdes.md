@@ -57,6 +57,8 @@ Taylor expand: $\frac{\partial C}{\partial x}\bigg|_{x+dx} \approx \frac{\partia
 
 $$D \frac{\partial^2 C}{\partial x^2} dx = \frac{\partial C}{\partial t} dx$$
 
+Divide both sides by $dx$ and take $dx \to 0$ (the $O(dx^2)$ remainder vanishes):
+
 ### The Heat/Diffusion Equation
 
 $$\frac{\partial C}{\partial t} = D \frac{\partial^2 C}{\partial x^2}$$
@@ -96,15 +98,25 @@ $$\frac{dT}{dt} = -\lambda T \Rightarrow T(t) = A e^{-\lambda t}$$
 $$\frac{d^2X}{dx^2} = -\frac{\lambda}{D} X$$
 
 Define $k^2 = \lambda/D$:
-$$\frac{d^2X}{dx^2} + k^2 X = 0 \Rightarrow X(x) = B\sin(kx) + C\cos(kx)$$
+$$\frac{d^2X}{dx^2} + k^2 X = 0 \Rightarrow X(x) = C_1\sin(kx) + C_2\cos(kx)$$
 
-### General Solution
+(Note: we use $C_1, C_2$ for the spatial constants to avoid collision with the field $C(x,t)$.)
 
-The general solution is a **superposition** (infinite sum) of modes:
+### General Solution with Boundary Conditions
+
+Apply boundary conditions $C(0,t) = 0$ and $C(L,t) = 0$ (sealed or zero-concentration edges):
+
+**At $x=0$:** $X(0) = 0 \Rightarrow C_2 = 0$. The cosine term vanishes.
+
+**At $x=L$:** $X(L) = 0 \Rightarrow C_1\sin(kL) = 0 \Rightarrow kL = n\pi$ where $n = 1, 2, 3, \ldots$
+
+This quantizes the wavenumber: $k_n = \frac{n\pi}{L}$. Each mode oscillates differently in space and decays differently in time.
+
+The general solution is a **superposition** (infinite sum) of these modes:
 
 $$C(x,t) = \sum_{n=1}^{\infty} A_n \sin\left(\frac{n\pi x}{L}\right) e^{-D(n\pi/L)^2 t}$$
 
-(assuming the slab has length $L$ and zero-concentration boundary conditions at the edges).
+The coefficients $A_n$ are determined by the initial condition $C(x,0) = f(x)$ via Fourier series orthogonality.
 
 ---
 
@@ -166,7 +178,7 @@ $$\frac{\partial C}{\partial t} = D_{\text{polymer}} \nabla^2 C$$
 
 Boundary condition: $C(R, t) = C_{\text{sink}}$ (body removes drug at the surface).
 
-Solution: Drug release rate $\propto \sqrt{t}$ (Higuchi model, used in pharmaceutical design).
+Solution: At early times, drug release rate $\propto \sqrt{t}$ for diffusion-controlled systems (this $\sqrt{t}$ scaling is the basis of the Higuchi model, which is applied to planar drug delivery from polymer tablets). The spherical geometry modifies the prefactor but preserves the $\sqrt{t}$ scaling at short times.
 
 ### Tissue Engineering Scaffold
 
@@ -175,6 +187,8 @@ A porous scaffold must allow nutrients to diffuse inward. The maximum pore depth
 $$\text{Max depth} \sim \sqrt{D_{\text{nutrient}} \cdot t_{\text{viable}}}$$
 
 Cells die if nutrients can't reach them in time $t_{\text{viable}}$. Engineering controls pore size to match this.
+
+**Foreshadow to L1.4 (Biochemistry):** When cells consume nutrients, a reaction term must be added: $\frac{\partial C}{\partial t} = D \nabla^2 C - R(C)$, where $R(C)$ is the consumption rate (e.g., Michaelis-Menten kinetics). These **reaction-diffusion equations** are the foundation for tissue engineering and cellular dynamics.
 
 ### Continuum Mechanics (Foreshadow: L1.5)
 
